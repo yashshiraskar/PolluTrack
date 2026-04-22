@@ -23,7 +23,7 @@ export default function Auth() {
         animate={{ opacity: 1, scale: 1 }}
         className="glass-card neon-glow-green p-8 w-full max-w-md mx-4 relative z-10"
       >
-        <h1 className="font-display text-2xl text-center neon-text-green mb-2">AirChain</h1>
+        <h1 className="font-display text-2xl text-center neon-text-green mb-2">PolluTrack</h1>
         <div className="flex justify-center gap-4 mb-8">
           <button
             onClick={() => setIsLogin(true)}

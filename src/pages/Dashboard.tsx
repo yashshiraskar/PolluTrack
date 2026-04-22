@@ -45,7 +45,7 @@ export default function Dashboard() {
         className="h-screen sticky top-0 glass-card rounded-none border-r border-border flex flex-col overflow-hidden"
       >
         <div className="p-4 flex items-center justify-between border-b border-border">
-          {sidebarOpen && <span className="font-display text-sm neon-text-green">AirChain</span>}
+          {sidebarOpen && <span className="font-display text-sm neon-text-green">PolluTrack</span>}
           <button onClick={() => setSidebarOpen(!sidebarOpen)} className="text-muted-foreground hover:text-foreground">
             {sidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
@@ -76,7 +76,7 @@ export default function Dashboard() {
         <header className="sticky top-0 z-10 glass-card rounded-none border-b border-border px-6 py-3 flex items-center justify-between">
           <h1 className="font-display text-sm neon-text-blue">Dashboard</h1>
           <div className="flex items-center gap-4">
-            <span className="text-sm text-muted-foreground">admin@airchain.io</span>
+            <span className="text-sm text-muted-foreground">admin@PolluTrack.io</span>
             <button onClick={() => navigate("/auth")} className="text-muted-foreground hover:text-red-400 transition-colors">
               <LogOut className="w-5 h-5" />
             </button>

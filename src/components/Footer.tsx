@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-border py-12 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
         <div>
-          <h4 className="font-display text-neon-green mb-3 text-sm">AirChain</h4>
+          <h4 className="font-display text-neon-green mb-3 text-sm">PolluTrack</h4>
           <p className="text-muted-foreground">Blockchain-powered air quality monitoring for a cleaner future.</p>
         </div>
         <div>
@@ -16,12 +16,11 @@ export default function Footer() {
         </div>
         <div>
           <h4 className="font-display text-neon-blue mb-3 text-sm">Contact</h4>
-          <p className="text-muted-foreground">info@airchain.io</p>
-          <p className="text-muted-foreground mt-1">Built with ❤️ on the Blockchain</p>
+          <p className="text-muted-foreground">info@PolluTrack.io</p>
         </div>
       </div>
       <div className="text-center text-xs text-muted-foreground mt-8">
-        © 2026 AirChain. All rights reserved.
+        © 2026 PolluTrack. All rights reserved.
       </div>
     </footer>
   );
