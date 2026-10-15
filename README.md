@@ -114,8 +114,6 @@ Run the frontend and backend using the start commands defined in their respectiv
 
 **Yash Shiraskar**
 
-GitHub: [@yashshiraskar](https://github.com/yashshiraskar)
-
 ## Disclaimer
 
 PolluTrack is intended for environmental data monitoring and analysis. Its outputs should not be treated as certified regulatory measurements or substitutes for official environmental assessments.
